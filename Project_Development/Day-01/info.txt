@@ -1,0 +1,168 @@
+Project Name - KhetiGPT
+
+Project Title:
+
+KhetiGPT — AI-Powered Personal Farming Assistant
+
+One-line description:
+
+KhetiGPT is an AI-assisted web platform that brings selected agricultural information and farming assistance services together through a single, simple interface.
+
+2. MVP Features
+
+These are the features we will actually develop in the 75-day project.
+
+Core Features
+User Registration & Login
+Farmer Dashboard
+AI Farming Assistant
+Current & Forecast Weather
+Crop Recommendation
+Basic Fertilizer Guidance
+Government Schemes Information
+Responsive Web Interface
+Important
+
+For the initial project, do NOT add everything you saw in other agriculture apps.
+
+For example:
+
+❌ Crop disease detection
+❌ Satellite analysis
+❌ IoT sensors
+❌ Live mandi prices
+❌ Yield prediction
+❌ Drone integration
+
+These can remain in Future Scope.
+
+This keeps KhetiGPT realistic for a 75-day B.Tech mini project.
+
+3. Technology Stack
+
+Use this as the final stack:
+
+Category	Technology
+Frontend	React.js
+Programming	JavaScript
+Styling	HTML5, CSS3, Tailwind CSS
+Backend Runtime	Node.js
+Backend Framework	Express.js
+Database	MongoDB
+AI	Gemini API
+External API	Weather API
+API Communication	REST API
+Version Control	Git & GitHub
+IDE	Visual Studio Code
+
+
+Note
+
+Tailwind CSS is optional where useful, but I recommend using it for the actual UI because you want a professional responsive design.
+
+4. System Flow
+
+Your basic architecture for Day 1:
+
+                 USER / FARMER
+                       │
+                       ▼
+              REACT FRONTEND
+                       │
+                       ▼
+               REST API REQUEST
+                       │
+                       ▼
+              NODE.JS + EXPRESS
+                       │
+          ┌────────────┼────────────┐
+          ▼            ▼            ▼
+      MongoDB      Gemini API    Weather API
+          │            │            │
+          └────────────┼────────────┘
+                       ▼
+                  RESPONSE
+                       │
+                       ▼
+               REACT FRONTEND
+                       │
+                       ▼
+                FARMER / USER
+
+
+
+KhetiGPT — 75 Day Development Checklist
+
+[ ] Project planning
+[ ] Development environment setup
+[ ] GitHub repository setup
+[ ] React frontend setup
+[ ] Tailwind CSS setup
+[ ] Landing page
+[ ] Login page
+[ ] Registration page
+[ ] Authentication
+[ ] Farmer dashboard
+[ ] Backend setup
+[ ] Express REST APIs
+[ ] MongoDB connection
+[ ] User model
+[ ] AI assistant UI
+[ ] Gemini API integration
+[ ] Weather UI
+[ ] Weather API integration
+[ ] Crop recommendation module
+[ ] Fertilizer guidance module
+[ ] Government schemes module
+[ ] Profile module
+[ ] API error handling
+[ ] Form validation
+[ ] Responsive design
+[ ] Testing
+[ ] Bug fixing
+[ ] Deployment
+[ ] Documentation
+[ ] Final PPT
+[ ] Final demo
+
+
+
+ MVP vs Future Scope
+
+MVP
+Authentication
+        ↓
+Farmer Dashboard
+        ↓
+AI Farming Assistant
+        ↓
+Weather
+        ↓
+Crop Recommendation
+        ↓
+Fertilizer Guidance
+        ↓
+Government Schemes
+        ↓
+Responsive UI
+
+
+Future Scope
+
+Voice Assistant
+Regional Language Support
+Crop Disease Detection
+Live Mandi Prices
+Satellite Data
+Yield Prediction
+IoT Integration
+Mobile Application
+Personalized Farm Analytics
+
+This distinction is very important when your mentor asks:
+
+"What have you actually implemented?"
+
+You can clearly answer:
+
+"Sir, these are our MVP modules. The remaining features are planned as future enhancements."

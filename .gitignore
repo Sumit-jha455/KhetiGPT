@@ -1,0 +1,20 @@
+# Ignore everything in project root
+*
+
+# But keep .gitignore itself
+!.gitignore
+
+# Keep the main project folder
+!Project_Development/
+!Project_Development/**
+
+# Never upload dependencies
+Project_Development/node_modules/
+Project_Development/client/node_modules/
+Project_Development/server/node_modules/
+
+# Never upload environment/secrets
+.env
+.env.*
+Project_Development/.env
+Project_Development/.env.*
