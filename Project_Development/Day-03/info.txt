@@ -1,0 +1,16 @@
+KhetiGPT - Day 03
+GitHub Setup & Repository Management
+
+Completed:
+- GitHub repository verified
+- Git remote verified
+- Git workflow reviewed
+- Repository structure reviewed
+- Git status checked
+- Git add, commit and push workflow practiced
+
+Repository:
+KhetiGPT
+
+Main development folder:
+Project_Development
