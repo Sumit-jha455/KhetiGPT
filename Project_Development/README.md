@@ -67,6 +67,38 @@ React Frontend
 ↓
 User
 
+
+
+             FARMER
+                │
+                ▼
+        ┌───────────────┐
+        │ React Client  │
+        │   Frontend    │
+        └───────┬───────┘
+                │
+                ▼
+        ┌───────────────┐
+        │ Node + Express│
+        │    Backend    │
+        └───────┬───────┘
+                │
+       ┌────────┼─────────┐
+       ▼        ▼         ▼
+   MongoDB   Gemini API  Weather API
+       │        │         │
+       └────────┼─────────┘
+                ▼
+       Personalized Response
+                │
+                ▼
+          React Frontend
+                │
+                ▼
+             FARMER
+
+
+             
 ## Project Status
 
 🚧 Development in Progress
