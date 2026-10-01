@@ -1,0 +1,13 @@
+<!-- Simple SVG favicon: a green rounded square with a white sprout/leaf mark -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Rounded green background tile for the browser tab icon -->
+  <rect width="64" height="64" rx="16" fill="#166534" />
+  <!-- Stem of the sprout drawn as a curved line -->
+  <path d="M32 50V30" stroke="#dcfce7" stroke-width="5" stroke-linecap="round" />
+  <!-- Left leaf of the sprout -->
+  <path d="M32 34c-10 0-14-6-14-12 8 0 14 4 14 12z" fill="#86efac" />
+  <!-- Right leaf of the sprout -->
+  <path d="M32 28c0-8 6-13 14-13 0 8-5 13-14 13z" fill="#4ade80" />
+  <!-- Small soil mound line under the stem -->
+  <path d="M20 54h24" stroke="#bbf7d0" stroke-width="4" stroke-linecap="round" />
+</svg>

@@ -1,0 +1,37 @@
+<!-- <!doctype html> declares an HTML5 document for the KhetiGPT single-page application -->
+<!doctype html>
+<!-- lang="en" tells browsers and screen readers the page content is in English -->
+<html lang="en">
+  <!-- The head contains metadata, fonts and the page title (not rendered visually) -->
+  <head>
+    <!-- UTF-8 character encoding so all symbols and languages render correctly -->
+    <meta charset="UTF-8" />
+    <!-- viewport meta tag makes the app responsive on mobile and tablet devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Short description used by search engines and link previews -->
+    <meta
+      name="description"
+      content="KhetiGPT - AI-powered personal farming assistant bringing weather insights, crop guidance and agricultural information together."
+    />
+    <!-- Small browser-tab icon (green leaf mark) served from the public folder -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <!-- Preconnect speeds up the Google Fonts handshake -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <!-- Preconnect to the font file host to reduce font loading delay -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Modern typography: Inter for body text, Plus Jakarta Sans for headings -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Browser tab / bookmark title with the product name and tagline -->
+    <title>KhetiGPT | AI-Powered Personal Farming Assistant</title>
+  </head>
+  <!-- The body holds the React mount point that renders the whole application -->
+  <body>
+    <!-- Empty container that React fills with the app UI at runtime -->
+    <div id="root"></div>
+    <!-- Entry module that bootstraps React and mounts it into #root -->
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
