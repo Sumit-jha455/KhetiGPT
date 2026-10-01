@@ -27,6 +27,7 @@ government scheme information.
 ## Technology Stack
 
 ### Frontend
+
 - React.js
 - JavaScript
 - HTML5
@@ -34,19 +35,24 @@ government scheme information.
 - Tailwind CSS
 
 ### Backend
+
 - Node.js
 - Express.js
 
 ### Database
+
 - MongoDB
 
 ### AI
+
 - Gemini API
 
 ### External API
+
 - Weather API
 
 ### Tools
+
 - Git
 - GitHub
 - Visual Studio Code
