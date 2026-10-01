@@ -19,7 +19,6 @@ Gemini API
 External API:
 Weather API
 
-
 Architecture:
                     User
                     ↓
